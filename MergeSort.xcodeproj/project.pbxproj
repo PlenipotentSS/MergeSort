@@ -22,6 +22,7 @@
 		D2929D0E18BFF8B20049BF63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2929CED18BFF8B20049BF63 /* UIKit.framework */; };
 		D2929D1618BFF8B20049BF63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2929D1418BFF8B20049BF63 /* InfoPlist.strings */; };
 		D2929D1818BFF8B20049BF63 /* MergeSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2929D1718BFF8B20049BF63 /* MergeSortTests.m */; };
+		D2929D2318BFF9FE0049BF63 /* NSMutableArray+MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = D2929D2218BFF9FE0049BF63 /* NSMutableArray+MergeSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		D2929D1318BFF8B20049BF63 /* MergeSortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeSortTests-Info.plist"; sourceTree = "<group>"; };
 		D2929D1518BFF8B20049BF63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2929D1718BFF8B20049BF63 /* MergeSortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSortTests.m; sourceTree = "<group>"; };
+		D2929D2118BFF9FE0049BF63 /* NSMutableArray+MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MergeSort.h"; sourceTree = "<group>"; };
+		D2929D2218BFF9FE0049BF63 /* NSMutableArray+MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MergeSort.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				D2929CFE18BFF8B20049BF63 /* Main_iPad.storyboard */,
 				D2929D0118BFF8B20049BF63 /* ViewController.h */,
 				D2929D0218BFF8B20049BF63 /* ViewController.m */,
+				D2929D2118BFF9FE0049BF63 /* NSMutableArray+MergeSort.h */,
+				D2929D2218BFF9FE0049BF63 /* NSMutableArray+MergeSort.m */,
 				D2929D0418BFF8B20049BF63 /* Images.xcassets */,
 				D2929CF018BFF8B20049BF63 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			files = (
 				D2929D0318BFF8B20049BF63 /* ViewController.m in Sources */,
 				D2929CFA18BFF8B20049BF63 /* AppDelegate.m in Sources */,
+				D2929D2318BFF9FE0049BF63 /* NSMutableArray+MergeSort.m in Sources */,
 				D2929CF618BFF8B20049BF63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +480,7 @@
 				D2929D1D18BFF8B20049BF63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2929D1E18BFF8B20049BF63 /* Build configuration list for PBXNativeTarget "MergeSortTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +489,7 @@
 				D2929D2018BFF8B20049BF63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

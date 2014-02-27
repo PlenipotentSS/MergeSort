@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSMutableArray+MergeSort.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSMutableArray *anArray = [NSMutableArray new];
+    NSInteger maxNumber = 10;
+    for (int i=0; i<maxNumber; i++) {
+        NSInteger value = (NSInteger)rand()%maxNumber;
+        [anArray addObject:@(value)];
+    }
+    NSMutableArray *sortedArray = [NSMutableArray mergeSort:anArray];
+    
+    NSLog(@"%@",sortedArray);
 }
 
 - (void)didReceiveMemoryWarning
